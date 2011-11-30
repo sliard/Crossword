@@ -192,7 +192,6 @@
 		1C8240B8147E84C0007D2A71 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9CAD147A97CF0090B893 /* ViewController.xib */; };
 		1C8240B9147E84C0007D2A71 /* PuzzleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9C50147A96740090B893 /* PuzzleViewController.xib */; };
 		1C8240BA147E84C0007D2A71 /* CreditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9C53147A96740090B893 /* CreditViewController.xib */; };
-		1C8240BB147E84C0007D2A71 /* Crossword-iPad-free-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C332111147E7C6500EE528D /* Crossword-iPad-free-Info.plist */; };
 		1C8240C2147E8892007D2A71 /* grille-1-5-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8240BE147E8892007D2A71 /* grille-1-5-1.png */; };
 		1C8240C4147E8892007D2A71 /* grille-1-5-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8240BF147E8892007D2A71 /* grille-1-5-2.png */; };
 		1C8240C6147E8892007D2A71 /* grille-1-5-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8240C0147E8892007D2A71 /* grille-1-5-3.png */; };
@@ -373,7 +372,6 @@
 		1C332101147E75F100EE528D /* grille-3-5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "grille-3-5.plist"; sourceTree = "<group>"; };
 		1C33210A147E7C6500EE528D /* Crossword-iPad-free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crossword-iPad-free.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C332111147E7C6500EE528D /* Crossword-iPad-free-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Crossword-iPad-free-Info.plist"; sourceTree = "<group>"; };
-		1C332113147E7C6500EE528D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1C40B290147D9CC20081F53F /* grille-1-2-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grille-1-2-1.png"; sourceTree = "<group>"; };
 		1C40B291147D9CC20081F53F /* grille-1-2-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grille-1-2-2.png"; sourceTree = "<group>"; };
 		1C40B292147D9CC20081F53F /* grille-1-2-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grille-1-2-3.png"; sourceTree = "<group>"; };
@@ -411,7 +409,6 @@
 		1C40B2C8147E4C3E0081F53F /* grille-3-4-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grille-3-4-2.png"; sourceTree = "<group>"; };
 		1C40B2C9147E4C3E0081F53F /* grille-3-4-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grille-3-4-3.png"; sourceTree = "<group>"; };
 		1C40B2CA147E4C3E0081F53F /* grille-3-4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "grille-3-4.plist"; sourceTree = "<group>"; };
-		1C6F0331147AC9F900807F34 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "/Users/sail7551/Dropbox/KIDZGAME/Crossword/Sources/Crossword-iPad/Crossword-iPad/fr.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
 		1C6F9967147A9FF200BB765E /* grille-1-1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "grille-1-1.plist"; sourceTree = "<group>"; };
 		1C6F9969147A9FF200BB765E /* grille-2-1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grille-2-1-1.png"; sourceTree = "<group>"; };
 		1C6F996A147A9FF200BB765E /* grille-2-1-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grille-2-1-2.png"; sourceTree = "<group>"; };
@@ -639,7 +636,6 @@
 			children = (
 				1C8240BC147E8530007D2A71 /* Crossword-iPad-free-Prefix.pch */,
 				1C332111147E7C6500EE528D /* Crossword-iPad-free-Info.plist */,
-				1C332112147E7C6500EE528D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			path = "Crossword-iPad-free";
@@ -866,7 +862,6 @@
 			isa = PBXGroup;
 			children = (
 				1CDE9C39147A96530090B893 /* Crossword-iPad-Info.plist */,
-				1CDE9C3A147A96530090B893 /* InfoPlist.strings */,
 				1CDE9C3D147A96530090B893 /* main.m */,
 				1CDE9C3F147A96530090B893 /* Crossword-iPad-Prefix.pch */,
 			);
@@ -1084,7 +1079,6 @@
 				1C8240B8147E84C0007D2A71 /* ViewController.xib in Resources */,
 				1C8240B9147E84C0007D2A71 /* PuzzleViewController.xib in Resources */,
 				1C8240BA147E84C0007D2A71 /* CreditViewController.xib in Resources */,
-				1C8240BB147E84C0007D2A71 /* Crossword-iPad-free-Info.plist in Resources */,
 				1C824044147E848A007D2A71 /* A.mp3 in Resources */,
 				1C824045147E848A007D2A71 /* B.mp3 in Resources */,
 				1C824046147E848A007D2A71 /* C.mp3 in Resources */,
@@ -1415,25 +1409,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1C332112147E7C6500EE528D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C332113147E7C6500EE528D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		1CDE9C3A147A96530090B893 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C6F0331147AC9F900807F34 /* fr */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1C33211C147E7C6500EE528D /* Debug */ = {
