@@ -104,7 +104,7 @@ static AudioManager *singleton = nil;
         }
         else
         {
-            mAudioPlayer.volume = 0.5;
+            mAudioPlayer.volume = 0.3;
 			mAudioPlayer.numberOfLoops = -1;
             [mAudioPlayer prepareToPlay];
             [mAudioPlayer setDelegate:self];

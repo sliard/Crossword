@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C00C15A1487865F00EAD79E /* credits-aide.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C00C15D1487865F00EAD79E /* credits-aide.png */; };
+		1C00C15B1487865F00EAD79E /* credits-aide.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C00C15D1487865F00EAD79E /* credits-aide.png */; };
 		1C14D046147BAD6B00562DAB /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D045147BAD6B00562DAB /* AudioManager.m */; };
 		1C14D04A147BD6ED00562DAB /* africa_day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C14D049147BD6ED00562DAB /* africa_day.mp3 */; };
 		1C14D04C147BD94100562DAB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C14D04B147BD94100562DAB /* AudioToolbox.framework */; };
@@ -41,6 +43,8 @@
 		1C14D08D147BFF3200562DAB /* X.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C14D073147BFF3200562DAB /* X.mp3 */; };
 		1C14D08E147BFF3200562DAB /* Y.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C14D074147BFF3200562DAB /* Y.mp3 */; };
 		1C14D08F147BFF3200562DAB /* Z.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C14D075147BFF3200562DAB /* Z.mp3 */; };
+		1C2D672B1487E1C800693849 /* CreditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2D672E1487E1C800693849 /* CreditViewController.xib */; };
+		1C2D672C1487E1C800693849 /* CreditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2D672E1487E1C800693849 /* CreditViewController.xib */; };
 		1C332102147E75F100EE528D /* grille-3-5-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3320FE147E75F100EE528D /* grille-3-5-1.png */; };
 		1C332103147E75F100EE528D /* grille-3-5-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C3320FF147E75F100EE528D /* grille-3-5-2.png */; };
 		1C332104147E75F100EE528D /* grille-3-5-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C332100147E75F100EE528D /* grille-3-5-3.png */; };
@@ -191,7 +195,6 @@
 		1C8240B7147E848A007D2A71 /* allLetter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9C59147A97830090B893 /* allLetter.plist */; };
 		1C8240B8147E84C0007D2A71 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9CAD147A97CF0090B893 /* ViewController.xib */; };
 		1C8240B9147E84C0007D2A71 /* PuzzleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9C50147A96740090B893 /* PuzzleViewController.xib */; };
-		1C8240BA147E84C0007D2A71 /* CreditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9C53147A96740090B893 /* CreditViewController.xib */; };
 		1C8240C2147E8892007D2A71 /* grille-1-5-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8240BE147E8892007D2A71 /* grille-1-5-1.png */; };
 		1C8240C4147E8892007D2A71 /* grille-1-5-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8240BF147E8892007D2A71 /* grille-1-5-2.png */; };
 		1C8240C6147E8892007D2A71 /* grille-1-5-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C8240C0147E8892007D2A71 /* grille-1-5-3.png */; };
@@ -234,7 +237,6 @@
 		1CDE9C54147A96740090B893 /* PuzzleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE9C4F147A96740090B893 /* PuzzleViewController.m */; };
 		1CDE9C55147A96740090B893 /* PuzzleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9C50147A96740090B893 /* PuzzleViewController.xib */; };
 		1CDE9C56147A96740090B893 /* CreditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDE9C52147A96740090B893 /* CreditViewController.m */; };
-		1CDE9C57147A96740090B893 /* CreditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9C53147A96740090B893 /* CreditViewController.xib */; };
 		1CDE9C85147A97840090B893 /* allLetter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9C59147A97830090B893 /* allLetter.plist */; };
 		1CDE9CAE147A97CF0090B893 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9CAD147A97CF0090B893 /* ViewController.xib */; };
 		1CDE9CCF147A9BB80090B893 /* 1-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CDE9CB3147A9BB80090B893 /* 1-star.png */; };
@@ -320,8 +322,6 @@
 		1CE42E011483806D006EDC34 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE42DD41483806D006EDC34 /* 22.png */; };
 		1CE42E021483806D006EDC34 /* 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE42DD51483806D006EDC34 /* 23.png */; };
 		1CE42E031483806D006EDC34 /* 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE42DD51483806D006EDC34 /* 23.png */; };
-		1CE42E051483827E006EDC34 /* credits-aide.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE42E041483827E006EDC34 /* credits-aide.png */; };
-		1CE42E061483827E006EDC34 /* credits-aide.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CE42E041483827E006EDC34 /* credits-aide.png */; };
 		1CE42E081483838F006EDC34 /* wellPlaced.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CE42E071483838F006EDC34 /* wellPlaced.mp3 */; };
 		1CE42E091483838F006EDC34 /* wellPlaced.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CE42E071483838F006EDC34 /* wellPlaced.mp3 */; };
 		1CE42E0B14838450006EDC34 /* endGrid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CE42E0A14838450006EDC34 /* endGrid.mp3 */; };
@@ -331,6 +331,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C00C15C1487865F00EAD79E /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/credits-aide.png"; sourceTree = "<group>"; };
+		1C00C15E1487866B00EAD79E /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = "fr.lproj/credits-aide.png"; sourceTree = "<group>"; };
 		1C14D044147BAD6B00562DAB /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
 		1C14D045147BAD6B00562DAB /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
 		1C14D049147BD6ED00562DAB /* africa_day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = africa_day.mp3; sourceTree = "<group>"; };
@@ -366,6 +368,7 @@
 		1C14D073147BFF3200562DAB /* X.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = X.mp3; sourceTree = "<group>"; };
 		1C14D074147BFF3200562DAB /* Y.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Y.mp3; sourceTree = "<group>"; };
 		1C14D075147BFF3200562DAB /* Z.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Z.mp3; sourceTree = "<group>"; };
+		1C2D672D1487E1C800693849 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CreditViewController.xib; sourceTree = "<group>"; };
 		1C3320FE147E75F100EE528D /* grille-3-5-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grille-3-5-1.png"; sourceTree = "<group>"; };
 		1C3320FF147E75F100EE528D /* grille-3-5-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grille-3-5-2.png"; sourceTree = "<group>"; };
 		1C332100147E75F100EE528D /* grille-3-5-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grille-3-5-3.png"; sourceTree = "<group>"; };
@@ -460,7 +463,6 @@
 		1CDE9C50147A96740090B893 /* PuzzleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PuzzleViewController.xib; sourceTree = "<group>"; };
 		1CDE9C51147A96740090B893 /* CreditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditViewController.h; sourceTree = "<group>"; };
 		1CDE9C52147A96740090B893 /* CreditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditViewController.m; sourceTree = "<group>"; };
-		1CDE9C53147A96740090B893 /* CreditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditViewController.xib; sourceTree = "<group>"; };
 		1CDE9C59147A97830090B893 /* allLetter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = allLetter.plist; sourceTree = "<group>"; };
 		1CDE9CAD147A97CF0090B893 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		1CDE9CB3147A9BB80090B893 /* 1-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-star.png"; sourceTree = "<group>"; };
@@ -523,7 +525,6 @@
 		1CE42DD31483806D006EDC34 /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
 		1CE42DD41483806D006EDC34 /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
 		1CE42DD51483806D006EDC34 /* 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 23.png; sourceTree = "<group>"; };
-		1CE42E041483827E006EDC34 /* credits-aide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "credits-aide.png"; sourceTree = "<group>"; };
 		1CE42E071483838F006EDC34 /* wellPlaced.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wellPlaced.mp3; sourceTree = "<group>"; };
 		1CE42E0A14838450006EDC34 /* endGrid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = endGrid.mp3; sourceTree = "<group>"; };
 		1CE42E0E1483CA1D006EDC34 /* FlurryAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAnalytics.h; sourceTree = "<group>"; };
@@ -850,7 +851,7 @@
 				1CDE9C50147A96740090B893 /* PuzzleViewController.xib */,
 				1CDE9C51147A96740090B893 /* CreditViewController.h */,
 				1CDE9C52147A96740090B893 /* CreditViewController.m */,
-				1CDE9C53147A96740090B893 /* CreditViewController.xib */,
+				1C2D672E1487E1C800693849 /* CreditViewController.xib */,
 				1C8240E6147ED580007D2A71 /* AllLetterViewController.h */,
 				1C8240E7147ED583007D2A71 /* AllLetterViewController.m */,
 				1C8240E8147ED585007D2A71 /* AllLetterViewController.xib */,
@@ -894,7 +895,7 @@
 		1CDE9CB2147A9BB80090B893 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				1CE42E041483827E006EDC34 /* credits-aide.png */,
+				1C00C15D1487865F00EAD79E /* credits-aide.png */,
 				1C8240E3147EC58F007D2A71 /* dico-mots.png */,
 				1C8240DA147E8D6C007D2A71 /* Default-Landscape.png */,
 				1C8240D7147E8CF9007D2A71 /* Default.png */,
@@ -1059,6 +1060,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				fr,
 			);
 			mainGroup = 1CDE9C22147A96520090B893;
 			productRefGroup = 1CDE9C2E147A96530090B893 /* Products */;
@@ -1078,7 +1080,7 @@
 			files = (
 				1C8240B8147E84C0007D2A71 /* ViewController.xib in Resources */,
 				1C8240B9147E84C0007D2A71 /* PuzzleViewController.xib in Resources */,
-				1C8240BA147E84C0007D2A71 /* CreditViewController.xib in Resources */,
+				1C2D672C1487E1C800693849 /* CreditViewController.xib in Resources */,
 				1C824044147E848A007D2A71 /* A.mp3 in Resources */,
 				1C824045147E848A007D2A71 /* B.mp3 in Resources */,
 				1C824046147E848A007D2A71 /* C.mp3 in Resources */,
@@ -1200,7 +1202,7 @@
 				1CE42DFF1483806D006EDC34 /* 21.png in Resources */,
 				1CE42E011483806D006EDC34 /* 22.png in Resources */,
 				1CE42E031483806D006EDC34 /* 23.png in Resources */,
-				1CE42E061483827E006EDC34 /* credits-aide.png in Resources */,
+				1C00C15B1487865F00EAD79E /* credits-aide.png in Resources */,
 				1CE42E091483838F006EDC34 /* wellPlaced.mp3 in Resources */,
 				1CE42E0C14838450006EDC34 /* endGrid.mp3 in Resources */,
 			);
@@ -1211,7 +1213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CDE9C55147A96740090B893 /* PuzzleViewController.xib in Resources */,
-				1CDE9C57147A96740090B893 /* CreditViewController.xib in Resources */,
+				1C2D672B1487E1C800693849 /* CreditViewController.xib in Resources */,
 				1CDE9C85147A97840090B893 /* allLetter.plist in Resources */,
 				1CDE9CAE147A97CF0090B893 /* ViewController.xib in Resources */,
 				1CDE9CCF147A9BB80090B893 /* 1-star.png in Resources */,
@@ -1371,7 +1373,7 @@
 				1CE42DFE1483806D006EDC34 /* 21.png in Resources */,
 				1CE42E001483806D006EDC34 /* 22.png in Resources */,
 				1CE42E021483806D006EDC34 /* 23.png in Resources */,
-				1CE42E051483827E006EDC34 /* credits-aide.png in Resources */,
+				1C00C15A1487865F00EAD79E /* credits-aide.png in Resources */,
 				1CE42E081483838F006EDC34 /* wellPlaced.mp3 in Resources */,
 				1CE42E0B14838450006EDC34 /* endGrid.mp3 in Resources */,
 			);
@@ -1409,6 +1411,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1C00C15D1487865F00EAD79E /* credits-aide.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C00C15C1487865F00EAD79E /* en */,
+				1C00C15E1487866B00EAD79E /* fr */,
+			);
+			name = "credits-aide.png";
+			sourceTree = "<group>";
+		};
+		1C2D672E1487E1C800693849 /* CreditViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C2D672D1487E1C800693849 /* en */,
+			);
+			name = CreditViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1C33211C147E7C6500EE528D /* Debug */ = {
