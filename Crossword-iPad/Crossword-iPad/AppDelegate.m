@@ -50,6 +50,7 @@
     
     [FlurryAnalytics logAllPageViews:self.navController];
     
+    
     self.window.rootViewController = self.navController;
     [self.window makeKeyAndVisible];
 
