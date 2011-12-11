@@ -75,21 +75,14 @@ NSMutableDictionary *allTag;
 }
 
 - (IBAction)getFullVersion {
-
-    /*
-    UIAlertView *someError = [[UIAlertView alloc] initWithTitle:@"Version Complete" message:@"La prendre !" delegate: self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
-    
-    [someError show];
-    [someError release];
-    */
     
 #if defined(EN)
     
-    NSString *urlString = @"itms-apps://itunes.apple.com/us/app/kidschool-my-first-criss-cross/id484590469?l=fr&ls=1&mt=8";
+    NSString *urlString = @"itms-apps://itunes.apple.com/us/app/kidschool-my-first-criss-cross/id488585829";
 
 #else
     
-    NSString *urlString = @"itms-apps://itunes.apple.com/us/app/kidschool-my-first-criss-cross/id484590469?l=fr&ls=1&mt=8";
+    NSString *urlString = @"itms-apps://itunes.apple.com/us/app/kidschool-my-first-criss-cross/id484590469";
     
 #endif
     

@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>p1</string>
 	<key>baseX</key>
-	<integer>90</integer>
+	<integer>36</integer>
 	<key>baseY</key>
 	<integer>86</integer>
 	<key>width</key>
@@ -21,7 +21,7 @@
 	<key>level</key>
 	<integer>3</integer>
 	<key>nbLetters</key>
-	<integer>55</integer>
+	<integer>56</integer>
 	<key>words</key>
 	<array>
 		<dict>
@@ -48,21 +48,21 @@
 			<string>ONION</string>
 			<key>letters</key>
 			<dict>
-				<key>9-1</key>
-				<string>O</string>
 				<key>10-1</key>
-				<string>N</string>
-				<key>11-1</key>
-				<string>I</string>
-				<key>12-1</key>
 				<string>O</string>
+				<key>11-1</key>
+				<string>N</string>
+				<key>12-1</key>
+				<string>I</string>
 				<key>13-1</key>
+				<string>O</string>
+				<key>14-1</key>
 				<string>N</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>word</key>
-			<string>PUMKIN</string>
+			<string>PUMPKIN</string>
 			<key>letters</key>
 			<dict>
 				<key>4-3</key>
@@ -72,10 +72,12 @@
 				<key>6-3</key>
 				<string>M</string>
 				<key>7-3</key>
-				<string>K</string>
+				<string>P</string>
 				<key>8-3</key>
-				<string>I</string>
+				<string>K</string>
 				<key>9-3</key>
+				<string>I</string>
+				<key>10-3</key>
 				<string>N</string>
 			</dict>
 		</dict>
@@ -128,15 +130,15 @@
 			<string>APPLE</string>
 			<key>letters</key>
 			<dict>
-				<key>12-3</key>
-				<string>A</string>
 				<key>13-3</key>
-				<string>P</string>
+				<string>A</string>
 				<key>14-3</key>
 				<string>P</string>
 				<key>15-3</key>
-				<string>L</string>
+				<string>P</string>
 				<key>16-3</key>
+				<string>L</string>
+				<key>17-3</key>
 				<string>E</string>
 			</dict>
 		</dict>
@@ -145,13 +147,13 @@
 			<string>CORN</string>
 			<key>letters</key>
 			<dict>
-				<key>9-0</key>
+				<key>10-0</key>
 				<string>C</string>
-				<key>9-1</key>
+				<key>10-1</key>
 				<string>O</string>
-				<key>9-2</key>
+				<key>10-2</key>
 				<string>R</string>
-				<key>9-4</key>
+				<key>10-3</key>
 				<string>N</string>
 			</dict>
 		</dict>
@@ -160,17 +162,17 @@
 			<string>TOMATO</string>
 			<key>letters</key>
 			<dict>
-				<key>12-0</key>
+				<key>13-0</key>
 				<string>T</string>
-				<key>12-1</key>
+				<key>13-1</key>
 				<string>O</string>
-				<key>12-2</key>
+				<key>13-2</key>
 				<string>M</string>
-				<key>12-3</key>
+				<key>13-3</key>
 				<string>A</string>
-				<key>12-4</key>
+				<key>13-4</key>
 				<string>T</string>
-				<key>12-5</key>
+				<key>13-5</key>
 				<string>O</string>
 			</dict>
 		</dict>
@@ -202,17 +204,17 @@
 			<string>POTATO</string>
 			<key>letters</key>
 			<dict>
-				<key>11-5</key>
-				<string>P</string>
 				<key>12-5</key>
-				<string>O</string>
+				<string>P</string>
 				<key>13-5</key>
-				<string>T</string>
+				<string>O</string>
 				<key>14-5</key>
-				<string>A</string>
-				<key>15-5</key>
 				<string>T</string>
+				<key>15-5</key>
+				<string>A</string>
 				<key>16-5</key>
+				<string>T</string>
+				<key>17-5</key>
 				<string>O</string>
 			</dict>
 		</dict>
