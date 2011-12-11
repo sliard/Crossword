@@ -249,7 +249,7 @@
 
         NSNumber *level = [self.puzzleFile objectForKey:@"level"];
 
-        if([level intValue] == 1) {
+        if(([level intValue] == 1) || (mode == MODE_EASY)) {
             [[AudioManager getSingleton] playSound:selectedLetter];
         }
 

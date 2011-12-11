@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Crossword-iPad-en-free.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Crossword-iPad-en.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Crossword-iPad-free.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +43,16 @@
 			<true/>
 		</dict>
 		<key>1C40B36E147E5F520081F53F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1CA6D0151492A20300B51CD2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1CA6D16A1492AA2C00B51CD2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -26,12 +26,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-#if defined(LITE)
-    [FlurryAnalytics startSession:@"TYICVWTCR8ZDDYJKWFIU"];
+
+#if defined(EN)
+
+    #if defined(LITE)
+        [FlurryAnalytics startSession:@"JK5GQNAY7D69CGH41YP2"];
+        NSLog(@"Lite EN");
+    #else
+        [FlurryAnalytics startSession:@"H8RU8YQSNDJ768SYNC6S"];
+        NSLog(@" EN");
+    #endif
+
 #else
-    [FlurryAnalytics startSession:@"8ERVGVF49F98PASNW9CB"];
+    
+    #if defined(LITE)
+        [FlurryAnalytics startSession:@"TYICVWTCR8ZDDYJKWFIU"];
+    #else
+        [FlurryAnalytics startSession:@"8ERVGVF49F98PASNW9CB"];
+    #endif
+
 #endif
+    
+    // EN  H8RU8YQSNDJ768SYNC6S
+    
+    // EN Free  JK5GQNAY7D69CGH41YP2
     
     /*
      self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];

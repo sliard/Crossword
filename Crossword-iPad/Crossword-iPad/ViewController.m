@@ -83,12 +83,18 @@ NSMutableDictionary *allTag;
     [someError release];
     */
     
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/us/app/kidschool-my-first-criss-cross/id484590469?l=fr&ls=1&mt=8"]];
+#if defined(EN)
+    
+    NSString *urlString = @"itms-apps://itunes.apple.com/us/app/kidschool-my-first-criss-cross/id484590469?l=fr&ls=1&mt=8";
 
-//    http://itunes.apple.com/us/app/cute-kittens/id352275799?mt=8&uo=4
+#else
     
-//    http://itunes.apple.com/us/app/kidschool-my-first-criss-cross/id484590469?l=fr&ls=1&mt=8
+    NSString *urlString = @"itms-apps://itunes.apple.com/us/app/kidschool-my-first-criss-cross/id484590469?l=fr&ls=1&mt=8";
     
+#endif
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
+
 }
 
 
