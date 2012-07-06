@@ -2602,7 +2602,7 @@
 		1C33211C147E7C6500EE528D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Caroline Huet (HUF38TZU43)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Crossword-iPad-free/Crossword-iPad-free-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = LITE;
@@ -2613,7 +2613,7 @@
 					"\"$(SRCROOT)/Crossword-iPad/FlurryAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DFA08896-BF20-482C-99EC-DA4110F03BF4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2622,7 +2622,7 @@
 		1C33211D147E7C6500EE528D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Caroline Huet (HUF38TZU43)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Crossword-iPad-free/Crossword-iPad-free-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = LITE;
@@ -2633,7 +2633,7 @@
 					"\"$(SRCROOT)/Crossword-iPad/FlurryAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DFA08896-BF20-482C-99EC-DA4110F03BF4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2642,7 +2642,7 @@
 		1CA6D02E1492A20300B51CD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Caroline Huet (HUF38TZU43)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Crossword-iPad-en/Crossword-iPad-en-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = EN;
@@ -2653,7 +2653,7 @@
 					"\"$(SRCROOT)/Crossword-iPad/FlurryAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DFA08896-BF20-482C-99EC-DA4110F03BF4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2661,7 +2661,7 @@
 		1CA6D02F1492A20300B51CD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Caroline Huet (HUF38TZU43)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Crossword-iPad-en/Crossword-iPad-en-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = EN;
@@ -2672,7 +2672,7 @@
 					"\"$(SRCROOT)/Crossword-iPad/FlurryAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DFA08896-BF20-482C-99EC-DA4110F03BF4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -2680,7 +2680,7 @@
 		1CA6D1831492AA2D00B51CD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Caroline Huet (HUF38TZU43)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Crossword-iPad-en-free/Crossword-iPad-en-free-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
@@ -2694,7 +2694,7 @@
 					"\"$(SRCROOT)/Crossword-iPad/FlurryAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DFA08896-BF20-482C-99EC-DA4110F03BF4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2702,7 +2702,7 @@
 		1CA6D1841492AA2D00B51CD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Caroline Huet (HUF38TZU43)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Crossword-iPad-en-free/Crossword-iPad-en-free-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = (
@@ -2716,7 +2716,7 @@
 					"\"$(SRCROOT)/Crossword-iPad/FlurryAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DFA08896-BF20-482C-99EC-DA4110F03BF4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -2769,7 +2769,7 @@
 		1CDE9C4C147A96530090B893 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Caroline Huet (HUF38TZU43)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Crossword-iPad/Crossword-iPad-Prefix.pch";
 				INFOPLIST_FILE = "Crossword-iPad/Crossword-iPad-Info.plist";
@@ -2779,7 +2779,7 @@
 					"\"$(SRCROOT)/Crossword-iPad/FlurryAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DFA08896-BF20-482C-99EC-DA4110F03BF4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2787,7 +2787,7 @@
 		1CDE9C4D147A96530090B893 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Caroline Huet (HUF38TZU43)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Crossword-iPad/Crossword-iPad-Prefix.pch";
 				INFOPLIST_FILE = "Crossword-iPad/Crossword-iPad-Info.plist";
@@ -2797,7 +2797,7 @@
 					"\"$(SRCROOT)/Crossword-iPad/FlurryAnalytics\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DFA08896-BF20-482C-99EC-DA4110F03BF4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -2821,6 +2821,7 @@
 				1CA6D02F1492A20300B51CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CA6D1821492AA2D00B51CD2 /* Build configuration list for PBXNativeTarget "Crossword-iPad-en-free" */ = {
 			isa = XCConfigurationList;
@@ -2829,6 +2830,7 @@
 				1CA6D1841492AA2D00B51CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CDE9C27147A96520090B893 /* Build configuration list for PBXProject "Crossword-iPad" */ = {
 			isa = XCConfigurationList;

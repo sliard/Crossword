@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Crossword-iPad-en-free.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Crossword-iPad-en.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Crossword-iPad-free.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Crossword-iPad.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1C332109147E7C6500EE528D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1CA6D0151492A20300B51CD2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1CA6D16A1492AA2C00B51CD2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1CDE9C2C147A96520090B893</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
